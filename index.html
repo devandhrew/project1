@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Devan Lad's Portfolio</title>  
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="nav-bar fix-top">
+             <div class="nav-items">
+                <!-- <a class="headname" href="#top"><b>Devan Lad</b></a> -->
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li> 
+                    <li class="nav-item"><a href="#experience"> Work Experience</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#papers">Papers</a></li> Will add when I complete my thesis--> 
+                    <!-- <li><a href="blog.html">Blog</a></li> -->
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a href="./assets/media/Devan_Lad_Resume.pdf">Resume</a></li>
+                </ul>
+             </div>
+        </nav>
+
+        <!-- Header -->
+        <Header id= "top" class="headarea"> 
+            <div class="header-content">
+                <img id="profile_pic" src="assets/media/profile_pic.jpg" alt=""></img>
+                <h1>Devan Lad</h1>
+            </div>
+        </Header>
+
+        
+
+        <!-- Intro -->
+        <section id="about">
+            <div class="bio-content">
+                <h2>About Me</h2>
+                <p class="bio">
+                    I'm a current Hard of Hearing Software Engineering master's student at Rochester Institute of Technology(RIT). I am expected to graduate in May 2022. I completed my undergraduates with a Bachelors's in Software engineering at RIT in 2020. 
+                    My passions are Software Engineering, Games, and Reading. I am currently doing my thesis in Testing 
+                    Recurrent Neural Networks. I like walking through the process of software development life cycle and learning strategies on how to approach each of the steps. I enjoy a team environment as it makes projects enjoyable and a great learning experience.
+                </p> 
+                <p class="bio">
+                    In my free time I am reading or playing games and also I enjoy cooking a decent amount. 
+                    I read books mainly translated over from Japanese, Korean, and Chinese. The main game I play 
+                    is League of Legends, which I have been playing since 2014. I found a big interest in cooking since 
+                    I have started to live on my own.I have experimented with things like hot Cheetos by adding them as 
+                    breading for mozzarella sticks and chicken tenders.
+                </p>
+            </div>
+            <div class="education-content">
+                <h2 class="header-education">Education</h2>
+                <p class="ms">
+                    Software Engineer MS<br/>
+                    Rochester Institute of Technology<br/>
+                    2020 - curr, 4.0<br/>
+                </p>
+                <p class="bs">
+                    Software Engineer BS<br/>
+                    Rochester Institute of Technology<br/>
+                    2015 - 2020<br/>
+                </p>
+                <img id="rit-logo" src="assets/media/ritlogo.png"></img>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="coops">
+                <h3>Co-ops/Internships</h3>
+                <div class="catercoop">
+                    <a href="https://catertrax.com/"><img id="catertrax-logo" src="assets/media/CaterTrax_Logo.png"></a>
+                    <h4 class="coop">
+                        Software Engineering Co-op<br/>
+                        (Fall 2019)<br/>
+                        <a href="https://catertrax.com/">CaterTrax</a><br/>
+                        Rochester, NY<br/>
+                    </h4>
+                    <p class="desc">  
+                        I interned at Catertrax in Rochester, New York from 10/2019 to 12/2019. I was tasked with determining the limits of Catertrax’s product. 
+                        I executed performance tests and analyzed data to determine the performance limits for Catertrax’s current production.
+                    </p>
+                </div>
+                <div class="msacoop">
+                    <a href="https://us.msasafety.com/"><img id="msasafety-logo" src="assets/media/MSA_Logo.png"></a>
+                    <h4 class="coop">
+                        Software Development Co-op<br/>
+                        (Spring-Summer 2019)<br/>
+                        <a href="https://us.msasafety.com/">MSA Safety</a><br/>
+                        Cranberry Township, PA<br/>
+                    </h4>
+                    <p class="desc">  
+                        I interned at MSA Safety in Cranberry Township, PA from 01/2019 to 08/2019. I was tasked with communicating with a gas detector using a phone. 
+                        I developed an android application that connected to a gas detector with an android device using Bluetooth Low Energy.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-items">
+                <div class="proj">
+                    <span class="text-descrip">
+                        <h3>Portfolio Website</h3>
+                        <p class="projectdesc">I developed a website using html and css.</p>
+                            <ul>
+                                <li>HTML structure, linking of pages/sections, and site organization</li>
+                            </ul>
+                        <p>Tools: HTML, CSS, Visual Studio Code</p>
+                    </span>
+                    <img id="html-pic" src="assets/media/portfolio.png"></img>
+                </div>
+                <div class="proj">
+                    <span class="text-descrip">
+                        <h3>Capacity Checker</h3>
+                        <p class="projectdesc">I worked in team of 4 where we created a Cloud-based application that monitors room capacity using machine learning to help enforce COVID19 room capacity guidelines. A Video/Camera is streamed to the Cloud-based application and Capacity is displayed on a Front-end.</p>
+                            <ul>
+                                <li>Automated spinning up and tearing down the cloud application using AWS CDK with Python</li>
+                                <li>Deployed and setup AWS relational database and PostgreSQL</li>
+                                <li>Created Lambda Functions to process data from the database and send notifications</li>
+                                <li>Set up AWS API Gateway to get data from Lambda to React frontend.</li>
+                                <li>Deployed React Front end to AWS Amplify using Github</li>
+                            </ul>
+                        <p>Tools: React, Python, AWS, PostgreSQL, Git, Visual Studio Code, AWS CDK tool kit, Boto3</p>
+                    </span>
+                    <img id="cloudcheck-pic" src="assets/media/cloudcheckers.png"></img>
+                </div>
+                <div class="proj">
+                    <span class="text-descrip">
+                        <h3>HRV-BioFeedback</h3>
+                        <p class="projectdesc">Tasked with finding how to read Heart Rate Biofeedback without needing to go for a clinical visit or using an expensive heart rate device from a sponsor. Creating an Android and iOS app that will administer Heart Rate BioFeedback using a polar h10 heart rate device using Bluetooth. This was done in a team of 4 where we communicated with a customer who gave us requirements. We followed a loose implementation of Agile for our development.</p>
+                        <ul>
+                            <li>Created a domain model based on meetings with the sponsor and current code</li>
+                            <li>Refactored current android source code to scan for all Bluetooth devices</li>
+                            <li>Refactored current android source code to convert Firebase to AWS</li>
+                            <li>Created Lambda functions to read Heart Rate and Demographic data in JSON to Dynamodb</li>
+                            <li>Implemented a user account system for application and linked to AWS Cognito</li>
+                        </ul>
+                        <p>Tools: Android Studio, Java, UML diagrams, Git, AWS, AWS Dynamodb, Scrum, AWS Lambda, AWS Cognito</p>
+                    </span>
+                    <img id="heartbit-pic" src="assets/media/heartbit.png"></img>
+                </div>
+                <div class="proj">
+                    <span class="text-descrip">
+                        <h3>RideSharing Relational Database Project</h3>
+                        <p class="projectdesc">Class project where I was assigned with finding a way to store the records from trips taken on a mobile app where riders and drivers are the users. Created a database that will store the records from the Ride Sharing mobile app. I did code reviews with other classmates and I did iterate development
+                        where I had to develop the SQL ERD to support new features.</p>
+                        <ul>
+                            <li>Designed and developed database schema using a set of requirements for each iteration using PostgreSQL</li>
+                            <li>Developed Python methods to perform CRUD operations on SQL data</li>
+                            <li>Continuous integration with Python unit test for each iteration</li>
+                            <li>Created Merge Request with GitLab and did Code Reviews with team </li>
+                            <li>5 version each built off each other</li>
+                        </ul>
+                        <p>Tools: PostgreSQL, Python, Python Unittest, Git, GitLab, Visual Studio Code</p>
+                    </span>
+                    <img id="ridesharing-pic" src="assets/media/database.png"></img>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div>
+                <h2>Contact & Links</h2>
+                <hr/>
+                <ul class="contactlink">
+                    <li>Email: dpl2047@g.rit.edu</li>
+                    <li>Phone: 1(408)921-4831</li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/devan-lad">LinkedIn</a>
+                    </li>
+                    <li>  
+                        <a href="https://github.com/devandhrew">Github</a>
+                    </li>            
+                </ul>
+            </div>
+        </section>
+        <a href="#top">Back To Top</a>
+    </body>
+</html>
