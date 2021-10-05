@@ -13,71 +13,83 @@
     <body>
         <!-- Navigation -->
         <nav class="nav-bar fix-top">
-             <div class="nav-items">
-                <!-- <a class="headname" href="#top"><b>Devan Lad</b></a> -->
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="index.html">Home</a></li>
-                    <li class="nav-item"><a href="#about">About</a></li> 
-                    <li class="nav-item"><a href="#experience"> Work Experience</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <!-- <li><a href="#papers">Papers</a></li> Will add when I complete my thesis--> 
-                    <!-- <li><a href="blog.html">Blog</a></li> -->
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                    <li class="nav-item"><a href="./assets/media/Devan_Lad_Resume.pdf">Resume</a></li>
-                </ul>
-             </div>
+            <div class="container">
+                <div class="nav-items">
+                    <a class="headname" href="#top"><b>Devan Lad</b></a>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li> 
+                        <li class="nav-item"><a href="#experience"> Work Experience</a></li>
+                        <li class="nav-item"><a href="#projects">Projects</a></li>
+                        <!-- <li><a href="#papers">Papers</a></li> Will add when I complete my thesis--> 
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
+                        <li class="nav-item"><a href="./assets/media/Devan_Lad_Resume.pdf">Resume</a></li>
+                    </ul>
+                 </div>
+            </div>
+             
         </nav>
 
         <!-- Header -->
         <Header id= "top" class="headarea"> 
-            <div class="header-content">
-                <img id="profile_pic" src="assets/media/profile_pic.jpg" alt=""></img>
-                <h1>Devan Lad</h1>
+            <div class="container">
+                <div class="header-content">
+                    <img id="profile_pic" src="assets/media/profile_pic.jpg" alt="">
+                    <h1>Devan Lad</h1>
+                    <h3 class="secondary-header">
+                        <em>Graduate Student - Future Software Engineer</em>
+                    </h3>
+                </div>
             </div>
+            
         </Header>
 
         
 
         <!-- Intro -->
         <section id="about">
-            <div class="bio-content">
-                <h2>About Me</h2>
-                <p class="bio">
-                    I'm a current Hard of Hearing Software Engineering master's student at Rochester Institute of Technology(RIT). I am expected to graduate in May 2022. I completed my undergraduates with a Bachelors's in Software engineering at RIT in 2020. 
-                    My passions are Software Engineering, Games, and Reading. I am currently doing my thesis in Testing 
-                    Recurrent Neural Networks. I like walking through the process of software development life cycle and learning strategies on how to approach each of the steps. I enjoy a team environment as it makes projects enjoyable and a great learning experience.
-                </p> 
-                <p class="bio">
-                    In my free time I am reading or playing games and also I enjoy cooking a decent amount. 
-                    I read books mainly translated over from Japanese, Korean, and Chinese. The main game I play 
-                    is League of Legends, which I have been playing since 2014. I found a big interest in cooking since 
-                    I have started to live on my own.I have experimented with things like hot Cheetos by adding them as 
-                    breading for mozzarella sticks and chicken tenders.
-                </p>
-            </div>
-            <div class="education-content">
-                <h2 class="header-education">Education</h2>
-                <p class="ms">
-                    Software Engineer MS<br/>
-                    Rochester Institute of Technology<br/>
-                    2020 - curr, 4.0<br/>
-                </p>
-                <p class="bs">
-                    Software Engineer BS<br/>
-                    Rochester Institute of Technology<br/>
-                    2015 - 2020<br/>
-                </p>
-                <img id="rit-logo" src="assets/media/ritlogo.png"></img>
+            <div class="container">
+                <div class="about-content">
+                    <div class="bio-content">
+                        <h2>About Me</h2>
+                        <p class="bio">
+                            I'm a current Hard of Hearing Software Engineering master's student at Rochester Institute of Technology(RIT). I am expected to graduate in May 2022. I completed my undergraduates with a Bachelors's in Software engineering at RIT in 2020. 
+                            My passions are Software Engineering, Games, and Reading. I am currently doing my thesis in Testing 
+                            Recurrent Neural Networks. I like walking through the process of software development life cycle and learning strategies on how to approach each of the steps. I enjoy a team environment as it makes projects enjoyable and a great learning experience.
+                        </p> 
+                        <p class="bio">
+                            In my free time I am reading or playing games and also I enjoy cooking a decent amount. 
+                            I read books mainly translated over from Japanese, Korean, and Chinese. The main game I play 
+                            is League of Legends, which I have been playing since 2014. I found a big interest in cooking since 
+                            I have started to live on my own.I have experimented with things like hot Cheetos by adding them as 
+                            breading for mozzarella sticks and chicken tenders.
+                        </p>
+                    </div>
+                    <div class="education-content">
+                        <h2 class="header-education">Education</h2>
+                        <p class="ms">
+                            Software Engineer MS<br/>
+                            Rochester Institute of Technology<br/>
+                            2020 - curr, 4.0<br/>
+                        </p>
+                        <p class="bs">
+                            Software Engineer BS<br/>
+                            Rochester Institute of Technology<br/>
+                            2015 - 2020<br/>
+                        </p>
+                        <img id="rit-logo" src="assets/media/ritlogo.png" alt="">
+                    </div>
+                </div> 
             </div>
         </section>
 
-        <!-- Work Experience -->
+        <!-- Work Experience 
         <section id="experience">
             <h2>Work Experience</h2>
             <div class="coops">
                 <h3>Co-ops/Internships</h3>
                 <div class="catercoop">
-                    <a href="https://catertrax.com/"><img id="catertrax-logo" src="assets/media/CaterTrax_Logo.png"></a>
+                    <a href="https://catertrax.com/"><img id="catertrax-logo" src="assets/media/CaterTrax_Logo.png" alt=""></a>
                     <h4 class="coop">
                         Software Engineering Co-op<br/>
                         (Fall 2019)<br/>
@@ -90,7 +102,7 @@
                     </p>
                 </div>
                 <div class="msacoop">
-                    <a href="https://us.msasafety.com/"><img id="msasafety-logo" src="assets/media/MSA_Logo.png"></a>
+                    <a href="https://us.msasafety.com/"><img id="msasafety-logo" src="assets/media/MSA_Logo.png" alt=""></a>
                     <h4 class="coop">
                         Software Development Co-op<br/>
                         (Spring-Summer 2019)<br/>
@@ -103,9 +115,9 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <!-- Projects -->
+        <!-- Projects 
         <section id="projects">
             <h2>Projects</h2>
             <div class="project-items">
@@ -118,10 +130,10 @@
                             </ul>
                         <p>Tools: HTML, CSS, Visual Studio Code</p>
                     </span>
-                    <img id="html-pic" src="assets/media/portfolio.png"></img>
+                    <img id="html-pic" src="assets/media/portfolio.png" alt="">
                 </div>
                 <div class="proj">
-                    <span class="text-descrip">
+                    <span class="capacitycheck text-descrip">
                         <h3>Capacity Checker</h3>
                         <p class="projectdesc">I worked in team of 4 where we created a Cloud-based application that monitors room capacity using machine learning to help enforce COVID19 room capacity guidelines. A Video/Camera is streamed to the Cloud-based application and Capacity is displayed on a Front-end.</p>
                             <ul>
@@ -133,7 +145,7 @@
                             </ul>
                         <p>Tools: React, Python, AWS, PostgreSQL, Git, Visual Studio Code, AWS CDK tool kit, Boto3</p>
                     </span>
-                    <img id="cloudcheck-pic" src="assets/media/cloudcheckers.png"></img>
+                    <img id="cloudcheck-pic" src="assets/media/cloudcheckers.png" alt="">
                 </div>
                 <div class="proj">
                     <span class="text-descrip">
@@ -148,10 +160,10 @@
                         </ul>
                         <p>Tools: Android Studio, Java, UML diagrams, Git, AWS, AWS Dynamodb, Scrum, AWS Lambda, AWS Cognito</p>
                     </span>
-                    <img id="heartbit-pic" src="assets/media/heartbit.png"></img>
+                    <img id="heartbit-pic" src="assets/media/heartbit.png" alt="">
                 </div>
                 <div class="proj">
-                    <span class="text-descrip">
+                    <span class=" ridesharing text-descrip">
                         <h3>RideSharing Relational Database Project</h3>
                         <p class="projectdesc">Class project where I was assigned with finding a way to store the records from trips taken on a mobile app where riders and drivers are the users. Created a database that will store the records from the Ride Sharing mobile app. I did code reviews with other classmates and I did iterate development
                         where I had to develop the SQL ERD to support new features.</p>
@@ -164,28 +176,31 @@
                         </ul>
                         <p>Tools: PostgreSQL, Python, Python Unittest, Git, GitLab, Visual Studio Code</p>
                     </span>
-                    <img id="ridesharing-pic" src="assets/media/database.png"></img>
+                    <img id="ridesharing-pic" src="assets/media/database.png" alt="">
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <!-- Contact -->
+<!-- Contact 
         <section id="contact">
-            <div>
-                <h2>Contact & Links</h2>
-                <hr/>
+            <div class="bottom-contact">
+                
                 <ul class="contactlink">
-                    <li>Email: dpl2047@g.rit.edu</li>
-                    <li>Phone: 1(408)921-4831</li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/devan-lad">LinkedIn</a>
+                    <h2 class="header_contact">Contact & Links</h2>
+                    <li class="contact-item">Email: dpl2047@g.rit.edu</li>
+                    <li class="contact-item">Phone: 1(408)921-4831</li>
+                    <li class="contact-item">
+                        <a href="https://www.linkedin.com/in/devan-lad"><img class="links" src="assets/media/linkedIn.png" alt=""></a>
                     </li>
-                    <li>  
-                        <a href="https://github.com/devandhrew">Github</a>
+                    <li class="contact-item">  
+                        <a href="https://github.com/devandhrew"><img class="links" src="assets/media/github.png" alt=""></a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="#top">Back To Top</a>
                     </li>            
                 </ul>
             </div>
-        </section>
-        <a href="#top">Back To Top</a>
+        </section> -->
+        
     </body>
 </html>
