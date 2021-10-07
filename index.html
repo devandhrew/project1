@@ -20,6 +20,7 @@
                         <li class="nav-item"><a href="index.html">Home</a></li>
                         <li class="nav-item"><a href="#about">About</a></li> 
                         <li class="nav-item"><a href="#experience"> Work Experience</a></li>
+                        <li class="nav-item"><a href="#skills">Skills</a></li>
                         <li class="nav-item"><a href="#projects">Projects</a></li>
                         <!-- <li><a href="#papers">Papers</a></li> Will add when I complete my thesis--> 
                         <li class="nav-item"><a href="#contact">Contact</a></li>
@@ -122,94 +123,158 @@
                 </div>
             </div>
         </section>
-
+        
+        <!-- Skills -->
+        <section id="skills">
+            <div class="container">
+                <div>
+                    <h2>Technologies and Technical Skills</h2>
+                </div>
+                <div class="skills-content">
+                    <div class="skill-item">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C#</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>UML</li>
+                            <li>SQL</li>
+                        </ul>
+                     </div>
+                     <div class="skill-item">
+                        <h3>General Technologies</h3>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Git</li>
+                            <li>Visual Studio</li>
+                            <li>Aglie Development</li>
+                            <li>Software Life Cycle</li>
+                            <li>Model Driven Development</li>
+                            <li>Team Driven Development</li>
+                        </ul>
+                     </div>
+                     <div class="skill-item">
+                        <h3>General Technical Skills</h3>
+                        <ul>
+                            <li>AWS</li>
+                            <li>Xamarin</li>
+                            <li>NoSQL</li>
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                            <li>AWS Dynamodb</li>
+                        </ul>
+                     </div>
+                     <div class="skill-item">
+                        <h3>Web & Mobile</h3>
+                        <ul>
+                            <li>Spring</li>
+                            <li>React</li>
+                            <li>CSS</li>
+                            <li>Android</li>
+                            <li>Android studio</li>
+                            <li>Xamarin</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </section>
          <!-- Projects -->
         <section id="projects">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project-items">
                     <div class="proj">
-                        <img class="img-proj" id="html-pic" src="assets/media/html.png" alt="">
-                        <div class="text-descrip">
-                            <h3>Portfolio Website</h3>
-                            <p class="projectdesc">I developed a website using html and css.</p>
+                        <div class="text-cover">
+                            <div class=" portfolio text-descrip">
+                                <h3>Portfolio Website</h3>
+                                <p class="projectdesc">I developed a website using html and css.</p>
+                                    <ul>
+                                        <li>HTML structure, linking of pages/sections, and site organization</li>
+                                    </ul>
+                                <p>Tools: HTML, CSS, Visual Studio Code</p>
+                                
+                            </div>
+                            <img class="img-proj" id="html-pic" src="assets/media/html.png" alt="">
+                        </div>
+                    </div>
+                    <div class="proj">
+                        <div class="text-cover">
+                            <div class="text-descrip">
+                                <h3>Capacity Checker</h3>
+                                <p class="projectdesc">I worked in team of 4 where we created a Cloud-based application that monitors room capacity using machine learning to help enforce COVID19 room capacity guidelines. A Video/Camera is streamed to the Cloud-based application and Capacity is displayed on a Front-end.</p>
+                                    <ul>
+                                        <li>Automated spinning up and tearing down the cloud application using AWS CDK with Python</li>
+                                        <li>Deployed and setup AWS relational database and PostgreSQL</li>
+                                        <li>Created Lambda Functions to process data from the database and send notifications</li>
+                                        <li>Set up AWS API Gateway to get data from Lambda to React frontend.</li>
+                                        <li>Deployed React Front end to AWS Amplify using Github</li>
+                                    </ul>
+                                    <p>Tools: React, Python, AWS, PostgreSQL, Git, Visual Studio Code, AWS CDK tool kit, Boto3</p>
+                            </div>
+                            <img class="img-proj" id="cloudcheck-pic" src="assets/media/cloudcheckers.png" alt="">
+                        </div>
+                    </div>
+                    <div class="break"></div>
+                    <div class="proj">
+                        <div class="text-cover">
+                            <div class=" ridesharing text-descrip">
+                                <h3>RideSharing Relational Database Project</h3>
+                                <p class="projectdesc">Class project where I was assigned with finding a way to store the records from trips taken on a mobile app where riders and drivers are the users. Created a database that will store the records from the Ride Sharing mobile app. I did code reviews with other classmates and I did iterate development
+                                where I had to develop the SQL ERD to support new features.</p>
                                 <ul>
-                                    <li>HTML structure, linking of pages/sections, and site organization</li>
+                                    <li>Designed and developed database schema using a set of requirements for each iteration using PostgreSQL</li>
+                                    <li>Developed Python methods to perform CRUD operations on SQL data</li>
+                                    <li>Continuous integration with Python unit test for each iteration</li>
+                                    <li>Created Merge Request with GitLab and did Code Reviews with team </li>
+                                    <li>5 version each built off each other</li>
                                 </ul>
-                            <p>Tools: HTML, CSS, Visual Studio Code</p>
+                                <p>Tools: PostgreSQL, Python, Python Unittest, Git, GitLab, Visual Studio Code</p>
+                            </div>
+                            <img class="img-proj" id="ridesharing-pic" src="assets/media/database.png" alt="">
                         </div>
-                        
                     </div>
                     <div class="proj">
-                        <div class="capacitycheck text-descrip">
-                            <h3>Capacity Checker</h3>
-                            <p class="projectdesc">I worked in team of 4 where we created a Cloud-based application that monitors room capacity using machine learning to help enforce COVID19 room capacity guidelines. A Video/Camera is streamed to the Cloud-based application and Capacity is displayed on a Front-end.</p>
+                        <div class="text-cover">
+                            <div class=" heartbit text-descrip">
+                                <h3>HRV-BioFeedback</h3>
+                                <p class="projectdesc">Tasked with finding how to read Heart Rate Biofeedback without needing to go for a clinical visit or using an expensive heart rate device from a sponsor. Creating an Android and iOS app that will administer Heart Rate BioFeedback using a polar h10 heart rate device using Bluetooth. This was done in a team of 4 where we communicated with a customer who gave us requirements. We followed a loose implementation of Agile for our development.</p>
                                 <ul>
-                                    <li>Automated spinning up and tearing down the cloud application using AWS CDK with Python</li>
-                                    <li>Deployed and setup AWS relational database and PostgreSQL</li>
-                                    <li>Created Lambda Functions to process data from the database and send notifications</li>
-                                    <li>Set up AWS API Gateway to get data from Lambda to React frontend.</li>
-                                    <li>Deployed React Front end to AWS Amplify using Github</li>
+                                    <li>Created a domain model based on meetings with the sponsor and current code</li>
+                                    <li>Refactored current android source code to scan for all Bluetooth devices</li>
+                                    <li>Refactored current android source code to convert Firebase to AWS</li>
+                                    <li>Created Lambda functions to read Heart Rate and Demographic data in JSON to Dynamodb</li>
+                                    <li>Implemented a user account system for application and linked to AWS Cognito</li>
                                 </ul>
-                            <p>Tools: React, Python, AWS, PostgreSQL, Git, Visual Studio Code, AWS CDK tool kit, Boto3</p>
+                                <p>Tools: Android Studio, Java, UML diagrams, Git, AWS, AWS Dynamodb, Scrum, AWS Lambda, AWS Cognito</p>
+                            </div>
+                            <img class="img-proj" id="heartbit-pic" src="assets/media/heartbit.png" alt="">
                         </div>
-                        <img class="img-proj" id="cloudcheck-pic" src="assets/media/cloudcheckers.png" alt="">
-                    </div>
-                    <div class="proj">
-                        <div class="text-descrip">
-                            <h3>HRV-BioFeedback</h3>
-                            <p class="projectdesc">Tasked with finding how to read Heart Rate Biofeedback without needing to go for a clinical visit or using an expensive heart rate device from a sponsor. Creating an Android and iOS app that will administer Heart Rate BioFeedback using a polar h10 heart rate device using Bluetooth. This was done in a team of 4 where we communicated with a customer who gave us requirements. We followed a loose implementation of Agile for our development.</p>
-                            <ul>
-                                <li>Created a domain model based on meetings with the sponsor and current code</li>
-                                <li>Refactored current android source code to scan for all Bluetooth devices</li>
-                                <li>Refactored current android source code to convert Firebase to AWS</li>
-                                <li>Created Lambda functions to read Heart Rate and Demographic data in JSON to Dynamodb</li>
-                                <li>Implemented a user account system for application and linked to AWS Cognito</li>
-                            </ul>
-                            <p>Tools: Android Studio, Java, UML diagrams, Git, AWS, AWS Dynamodb, Scrum, AWS Lambda, AWS Cognito</p>
-                        </div>
-                        <img class="img-proj" id="heartbit-pic" src="assets/media/heartbit.png" alt="">
-                    </div>
-                    <div class="proj">
-                        <div class=" ridesharing text-descrip">
-                            <h3>RideSharing Relational Database Project</h3>
-                            <p class="projectdesc">Class project where I was assigned with finding a way to store the records from trips taken on a mobile app where riders and drivers are the users. Created a database that will store the records from the Ride Sharing mobile app. I did code reviews with other classmates and I did iterate development
-                            where I had to develop the SQL ERD to support new features.</p>
-                            <ul>
-                                <li>Designed and developed database schema using a set of requirements for each iteration using PostgreSQL</li>
-                                <li>Developed Python methods to perform CRUD operations on SQL data</li>
-                                <li>Continuous integration with Python unit test for each iteration</li>
-                                <li>Created Merge Request with GitLab and did Code Reviews with team </li>
-                                <li>5 version each built off each other</li>
-                            </ul>
-                            <p>Tools: PostgreSQL, Python, Python Unittest, Git, GitLab, Visual Studio Code</p>
-                        </div>
-                        <img class="img-proj" id="ridesharing-pic" src="assets/media/database.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
-
-<!-- Contact 
+        <!-- Contact  -->
         <section id="contact">
-            <div class="bottom-contact">
-                
-                <ul class="contactlink">
-                    <h2 class="header_contact">Contact & Links</h2>
-                    <li class="contact-item">Email: dpl2047@g.rit.edu</li>
-                    <li class="contact-item">Phone: 1(408)921-4831</li>
-                    <li class="contact-item">
-                        <a href="https://www.linkedin.com/in/devan-lad"><img class="links" src="assets/media/linkedIn.png" alt=""></a>
-                    </li>
-                    <li class="contact-item">  
-                        <a href="https://github.com/devandhrew"><img class="links" src="assets/media/github.png" alt=""></a>
-                    </li>
-                    <li class="contact-item">
-                        <a href="#top">Back To Top</a>
-                    </li>            
-                </ul>
+            <div class="container">
+                <div class="bottom-contact">
+                    <div class="header-contact"><h2>Contact & Links</h2></div>
+                    <div class="contact-items">
+                        <div class="contact-item">Email: dpl2047@g.rit.edu</div>
+                        <div class="contact-item">Phone: 1(408)921-4831</div>
+                        <div class="contact-item">
+                            <a href="https://www.linkedin.com/in/devan-lad"><img class="links" src="assets/media/linkedIn.png" alt=""></a>
+                        </div>
+                        <div class="contact-item">  
+                            <a href="https://github.com/devandhrew"><img class="links" src="assets/media/github.png" alt=""></a>
+                        </div>
+                        <div class="contact-item">
+                            <a class="backtotop" href="#top">Back To Top</a>
+                        </div> 
+                    </div>      
+                </div>
             </div>
-        </section> -->
-        
+        </section>   
     </body>
 </html>
